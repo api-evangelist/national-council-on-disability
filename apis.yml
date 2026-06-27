@@ -214,15 +214,15 @@ common:
     url: json-structure/ncd-testimony-structure.json
   - type: JSONStructure
     url: json-structure/ncd-stakeholder-letter-structure.json
-  - type: Example
+  - type: Examples
     url: examples/ncd-policy-report-example.json
-  - type: Example
+  - type: Examples
     url: examples/ncd-foia-record-example.json
-  - type: Example
+  - type: Examples
     url: examples/ncd-accountability-report-example.json
-  - type: Example
+  - type: Examples
     url: examples/ncd-testimony-example.json
-  - type: Example
+  - type: Examples
     url: examples/ncd-stakeholder-letter-example.json
 maintainers:
   - FN: Kin Lane
