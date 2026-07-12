@@ -87,6 +87,8 @@ apis:
     - type: DataAPI
       url: https://www.ncd.gov/accountability/congressional-budget-justification-reports/
 common:
+  - type: DomainSecurity
+    url: security/national-council-on-disability-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/ncdgov
   - type: Vocabulary
@@ -224,6 +226,8 @@ common:
     url: examples/ncd-testimony-example.json
   - type: Examples
     url: examples/ncd-stakeholder-letter-example.json
+  - url: https://www.ncd.gov/newsroom/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
