@@ -26,6 +26,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-council-on-disability.png
 tags:
   - Disability
+  - Federal-Government
+  - Policy
+  - Civil Rights
+  - Healthcare
+  - Independent Agency
+tags_raw:
+  - Disability
   - Federal Government
   - Policy
   - Civil Rights
