@@ -1,0 +1,82 @@
+generated: '2026-09-14'
+method: searched
+source: https://www.ncd.gov/accessibility/
+provider: National Council on Disability
+providerId: national-council-on-disability
+description: >-
+  Cross-cutting standards NCD declares on its own public surface. NCD publishes no API
+  contract (no OpenAPI, GraphQL, AsyncAPI, gRPC or SOAP surface was found on any host —
+  see x-coverage in apis.yml), so the usual API-protocol conformance entries (oauth2, oidc,
+  rfc9457, pagination, idempotency) are all absent by construction rather than by failure.
+  What NCD does declare, and declares precisely, is accessibility conformance — which is
+  the domain standard for its market as the federal agency advising on disability policy.
+entries:
+  - id: section-508
+    name: Section 508 of the Rehabilitation Act of 1973 (29 U.S.C. 794d)
+    conforms: true
+    domain_standard: true
+    statement: >-
+      "NCD's web pages are being designed to meet or exceed the Section 508 standards and
+      conform to the W3C Web Content Accessibility Guidelines (WCAG) 2.0, Level AA."
+    evidence: https://www.ncd.gov/accessibility/
+    note: >-
+      Stated as an ongoing design commitment ("are being designed to meet or exceed"), not
+      as a completed audit. No Accessibility Conformance Report (ACR/VPAT) is published.
+  - id: wcag-2.0-aa
+    name: W3C Web Content Accessibility Guidelines 2.0, Level AA
+    conforms: true
+    domain_standard: true
+    version: '2.0'
+    level: AA
+    evidence: https://www.ncd.gov/accessibility/
+    note: >-
+      WCAG 2.0 AA is the level ICT Final Rule incorporates into Section 508. NCD has not
+      updated the claim to WCAG 2.1 or 2.2.
+  - id: architectural-barriers-act
+    name: Architectural Barriers Act of 1968 (42 U.S.C. 4151-57)
+    conforms: true
+    domain_standard: true
+    evidence: https://www.ncd.gov/accessibility/
+  - id: cisa-bod-20-01
+    name: CISA Binding Operational Directive 20-01 (vulnerability disclosure policy)
+    conforms: partial
+    domain_standard: true
+    evidence: https://www.ncd.gov/accountability/vulnerability-disclosure-policy/
+    note: >-
+      The policy is published and carries safe harbor, scope and a 90-day disclosure window,
+      but the directive's security.txt companion is absent (404 on both hosts) and the
+      published reporting address is the unreplaced template placeholder security@agency.gov.
+      See security/national-council-on-disability-vulnerability-disclosure.yml.
+  - id: no-fear-act
+    name: Notification and Federal Employee Antidiscrimination and Retaliation Act
+    conforms: true
+    evidence: https://www.ncd.gov/accountability/no-fear-act/
+  - id: foia
+    name: Freedom of Information Act (5 U.S.C. 552) proactive disclosure
+    conforms: true
+    evidence: https://www.ncd.gov/foia/
+    note: >-
+      NCD runs a FOIA reference guide, regulation and annual/quarterly FOIA reports. All
+      disclosures are PDF documents; none is a machine-readable dataset or feed.
+  - id: gpra
+    name: Government Performance and Results Act reporting
+    conforms: true
+    evidence: https://www.ncd.gov/accountability/government-performance-and-results-act-reports/
+  - id: open-government-data-act
+    name: OPEN Government Data Act / Project Open Data (DCAT-US data.json)
+    conforms: false
+    evidence: https://www.ncd.gov/data.json
+    note: >-
+      Probed 2026-09-14 and returned 404. NCD publishes no /data.json enterprise data
+      inventory, so its public reports do not appear in the federal DCAT-US harvest chain.
+      This is the single highest-leverage machine-readable artifact the agency could add.
+api_protocol_conformance:
+  probed: true
+  result: none
+  note: >-
+    No OpenAPI, Swagger, GraphQL, AsyncAPI, OGC, gRPC or WSDL contract exists on any NCD
+    host, so oauth2/oidc/rfc9457/json:api/odata/scim-class conformance is not applicable
+    rather than failing. See the STEP 0b probe record in x-coverage.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,68 @@
+generated: '2026-09-14'
+method: probed
+source: live HTTPS probes of every host this record knows (www.ncd.gov, ncd.gov)
+provider: National Council on Disability
+providerId: national-council-on-disability
+description: >-
+  Probe of the RFC 8615 /.well-known/ namespace on every host in this record. NCD runs a
+  single static Jekyll site on Cloud.gov Pages behind CloudFront; there is no API host and
+  no separate docs/console host, so the registrable domain and its www alias are the complete
+  host set. Every named path returned 404 with an HTML body (the site's standard 404 page),
+  so no WellKnown or SecurityTxt pointer is emitted. The 404s are genuine — the site returns
+  a real 404 status, not a soft-200 catch-all.
+note: >-
+  The absence of /.well-known/security.txt is notable for a US federal executive-branch
+  agency: CISA Binding Operational Directive 20-01 directs agencies to publish a
+  vulnerability disclosure policy at /vulnerability-disclosure-policy and a security.txt.
+  NCD publishes the policy (see security/national-council-on-disability-vulnerability-disclosure.yml)
+  but at /accountability/vulnerability-disclosure-policy/ and with no security.txt companion.
+hosts:
+  - host: www.ncd.gov
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: ncd.gov
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

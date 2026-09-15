@@ -52,7 +52,7 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/apis.yml
 created: '2024-12-03'
-modified: '2026-04-19'
+modified: '2026-09-14'
 specificationVersion: '0.23'
 apis:
   - aid: national-council-on-disability:ncd-foia-data
@@ -141,8 +141,6 @@ common:
     url: https://www.ncd.gov/foia/
   - type: Contact
     url: https://www.ncd.gov/contact/
-  - type: PrivacyPolicy
-    url: https://www.ncd.gov/privacy-policy/
   - type: Newsroom
     url: https://www.ncd.gov/newsroom/
   - type: Features
@@ -258,6 +256,56 @@ common:
     url: examples/ncd-stakeholder-letter-example.json
   - url: https://www.ncd.gov/newsroom/
     type: Blog
+  - type: VulnerabilityDisclosure
+    url: security/national-council-on-disability-vulnerability-disclosure.yml
+  - type: Security
+    url: security/national-council-on-disability-vulnerability-disclosure.yml
+  - type: Conformance
+    url: conformance/national-council-on-disability-conformance.yml
+  - type: Compliance
+    url: conformance/national-council-on-disability-conformance.yml
+  - type: LLMsTxt
+    url: llms/national-council-on-disability-llms.txt
+  - type: Plans
+    url: plans/national-council-on-disability-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/national-council-on-disability-rate-limits.yml
+  - type: GitHubOrganization
+    url: https://github.com/NCDgov
+  - type: SourceCode
+    url: https://github.com/NCDgov/ncd-site
+  - type: BlogRSS
+    url: https://www.ncd.gov/feed.xml
+  - type: Support
+    url: https://www.ncd.gov/contact/
+  - type: FAQ
+    url: https://www.ncd.gov/resources/faq/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-14'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    NCD is an independent federal advisory agency whose entire public output is HTML pages and
+    PDF reports served from a static Jekyll site on Cloud.gov Pages — contract discovery on
+    2026-09-14 against both www.ncd.gov and ncd.gov (/openapi.json, /openapi.yaml, /swagger.json,
+    /v1/openapi.json, /api-docs, /docs, /redoc, /api, /api/v1, /wp-json/, /data.json, /llms.txt
+    and the full /.well-known/ named-path set) returned a real 404 on every single path, and the
+    agency runs no developer program, no GraphQL or MCP endpoint, and publishes no Project Open
+    Data /data.json inventory.
+  evidence:
+    - url: https://www.ncd.gov/openapi.json
+      status: 404
+    - url: https://www.ncd.gov/data.json
+      status: 404
+    - url: https://www.ncd.gov/.well-known/api-catalog
+      status: 404
+    - url: https://www.ncd.gov/sitemap.xml
+      status: 200
+  checked: '2026-09-14'
