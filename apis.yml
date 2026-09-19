@@ -108,6 +108,11 @@ apis:
     baseURL: https://www.ncd.gov
     tags:
     - Accountability
+    - Budgets
+    - Performance
+    - Transparency
+    tags_raw:
+    - Accountability
     - Budget
     - Performance
     - Transparency
