@@ -12,15 +12,19 @@ description: >-
   management for people with disabilities.
 type: Index
 deliveryModel:
-  model: unknown
-  open_source: false
-  commercial: false
+  model: saas
+  license_evidence:
+    not_product:
+    - ncdgov/ncd-site
+  open_source: unknown
+  commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - pricing
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -37,7 +41,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-council-on-disability.png
 tags:
   - Disability
-  - Federal-Government
+  - Federal Government
   - Policy
   - Civil Rights
   - Healthcare
@@ -49,6 +53,7 @@ tags_raw:
   - Civil Rights
   - Healthcare
   - Independent Agency
+  - Federal-Government
 url: >-
   https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/apis.yml
 created: '2024-12-03'
@@ -64,7 +69,6 @@ apis:
       letters, and all NCD policy reports. Data is available in PDF, XML, CSV,
       and ZIP formats through the NCD FOIA e-Library.
     humanURL: https://www.ncd.gov/foia/
-    baseURL: https://www.ncd.gov
     tags:
     - FOIA
     - Open Data
@@ -84,7 +88,6 @@ apis:
       recommendations to the President, Congress, and federal policymakers on
       national disability policy.
     humanURL: https://www.ncd.gov/reports/
-    baseURL: https://www.ncd.gov
     tags:
     - Policy Reports
     - Civil Rights
@@ -105,7 +108,6 @@ apis:
       Justification Reports, financial audits, and EEO policy statements
       providing transparency into agency operations and resource allocation.
     humanURL: https://www.ncd.gov/accountability/
-    baseURL: https://www.ncd.gov
     tags:
     - Accountability
     - Budgets
