@@ -124,6 +124,8 @@ apis:
     - type: DataAPI
       url: https://www.ncd.gov/accountability/congressional-budget-justification-reports/
 common:
+  - type: FinOps
+    url: finops/national-council-on-disability-finops.yml
   - type: DomainSecurity
     url: security/national-council-on-disability-domain-security.yml
   - type: LinkedIn
