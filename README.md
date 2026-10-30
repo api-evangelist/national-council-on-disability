@@ -1,4 +1,4 @@
-# National Council on Disability (national-council-on-disability)
+# National Council on Disability
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,153 +66,154 @@
 
 The National Council on Disability (NCD) is an independent federal agency that advises the President, Congress, and other federal agencies on disability policy and programs. Established in 1978, the NCD promotes equal opportunity, economic self-sufficiency, independent living, and full participation in all areas of society for individuals with disabilities. The agency conducts research, gathers information, and provides recommendations to improve policies, programs, and services. NCD publishes policy reports spanning civil rights, healthcare, transportation, employment, housing, and emergency management for people with disabilities.
 
-**URL:** [https://www.ncd.gov](https://www.ncd.gov)
+**Areas:** Disability · Federal Government · Policy · Civil Rights · Healthcare · Independent Agency
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## National Council on Disability on APIs.io
 
-## Tags:
+Everything profiled for National Council on Disability is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/national-council-on-disability/](https://apis.io/providers/national-council-on-disability/)** — or go straight to one of the APIs or properties below.
 
- - Disability, Federal Government, Policy, Civil Rights, Healthcare, Independent Agency
+### APIs (3)
 
-## Timestamps
+- [National Council on Disability FOIA Data](https://apis.io/apis/national-council-on-disability/ncd-foia-data/) — FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports,…
+- [National Council on Disability Policy Reports](https://apis.io/apis/national-council-on-disability/ncd-policy-reports/) — Comprehensive archive of NCD policy reports dating back to 1984 covering disability civil rights, healthcare, transportation, employment, housing, financial…
+- [National Council on Disability Accountability Reports](https://apis.io/apis/national-council-on-disability/ncd-accountability-data/) — Performance, accountability, and budget data from the National Council on Disability. Includes Annual Performance Reports, Congressional Budget…
 
-- **Created:** 2024-12-03
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### National Council on Disability FOIA Data
-FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws, stakeholder letters, and all NCD policy reports. Data is available in PDF, XML, CSV, and ZIP formats through the NCD FOIA e-Library.
+#### JSON Schema (5)
 
-**Human URL:** [https://www.ncd.gov/foia/](https://www.ncd.gov/foia/)
+The data models the API reads and writes.
 
-#### Tags:
+- [NCD Accountability Report](https://apis.io/schemas/national-council-on-disability/ncd-accountability-report/)
+- [NCD FOIA Record](https://apis.io/schemas/national-council-on-disability/ncd-foia-record/)
+- [NCD Policy Report](https://apis.io/schemas/national-council-on-disability/ncd-policy-report/)
+- [NCD Stakeholder Letter](https://apis.io/schemas/national-council-on-disability/ncd-stakeholder-letter/)
+- [NCD Congressional Testimony](https://apis.io/schemas/national-council-on-disability/ncd-testimony/)
 
- - FOIA, Open Data, Government Reports, Policy
+#### JSON Structure (5)
 
-#### Properties
+Data models expressed in JSON Structure.
 
-- [Documentation](https://www.ncd.gov/foia/)
-- [DataAPI](https://www.ncd.gov/foia/)
+- [Ncd Accountability Report Structure](https://apis.io/json-structure/national-council-on-disability/ncd-accountability-report-structure/)
+- [Ncd Foia Record Structure](https://apis.io/json-structure/national-council-on-disability/ncd-foia-record-structure/)
+- [Ncd Policy Report Structure](https://apis.io/json-structure/national-council-on-disability/ncd-policy-report-structure/)
+- [Ncd Stakeholder Letter Structure](https://apis.io/json-structure/national-council-on-disability/ncd-stakeholder-letter-structure/)
+- [Ncd Testimony Structure](https://apis.io/json-structure/national-council-on-disability/ncd-testimony-structure/)
 
-### National Council on Disability Policy Reports
-Comprehensive archive of NCD policy reports dating back to 1984 covering disability civil rights, healthcare, transportation, employment, housing, financial assistance, and emergency management. Reports include recommendations to the President, Congress, and federal policymakers on national disability policy.
+#### JSON-LD (1)
 
-**Human URL:** [https://www.ncd.gov/reports/](https://www.ncd.gov/reports/)
+Linked-data contexts for the provider's vocabulary.
 
-#### Tags:
+- [Ncd Context](https://apis.io/jsonld/national-council-on-disability/ncd-context/)
 
- - Policy Reports, Civil Rights, Healthcare, Employment, Housing, Transportation
+#### Vocabulary (1)
 
-#### Properties
+The provider's domain terms, defined.
 
-- [Documentation](https://www.ncd.gov/reports/)
-- [DataAPI](https://www.ncd.gov/reports/)
+- [Ncd Vocabulary](https://apis.io/vocabularies/national-council-on-disability/ncd-vocabulary/)
 
-### National Council on Disability Accountability Reports
-Performance, accountability, and budget data from the National Council on Disability. Includes Annual Performance Reports, Congressional Budget Justification Reports, financial audits, and EEO policy statements providing transparency into agency operations and resource allocation.
+#### Examples (5)
 
-**Human URL:** [https://www.ncd.gov/accountability/](https://www.ncd.gov/accountability/)
+Example requests and responses.
 
-#### Tags:
+- [Ncd Accountability Report Example](https://apis.io/examples/national-council-on-disability/ncd-accountability-report-example/)
+- [Ncd Foia Record Example](https://apis.io/examples/national-council-on-disability/ncd-foia-record-example/)
+- [Ncd Policy Report Example](https://apis.io/examples/national-council-on-disability/ncd-policy-report-example/)
+- [Ncd Stakeholder Letter Example](https://apis.io/examples/national-council-on-disability/ncd-stakeholder-letter-example/)
+- [Ncd Testimony Example](https://apis.io/examples/national-council-on-disability/ncd-testimony-example/)
 
- - Accountability, Budget, Performance, Transparency
+#### Governance rules (1)
 
-#### Properties
+Spectral rulesets for the provider's contracts.
 
-- [Documentation](https://www.ncd.gov/accountability/)
-- [DataAPI](https://www.ncd.gov/accountability/congressional-budget-justification-reports/)
+- [National Council on Disability — jsonschema rules](https://apis.io/rules/national-council-on-disability/national-council-on-disability-jsonschema-spectral-rules/)
 
-## Common Properties
+#### Security (2)
 
-- [Vocabulary](vocabulary/ncd-vocabulary.yaml)
-- [JSONSchema](json-schema/ncd-policy-report-schema.json)
-- [JSONSchema](json-schema/ncd-foia-record-schema.json)
-- [JSONSchema](json-schema/ncd-accountability-report-schema.json)
-- [JSONSchema](json-schema/ncd-testimony-schema.json)
-- [JSONSchema](json-schema/ncd-stakeholder-letter-schema.json)
+Authentication, trust centre, and vulnerability disclosure.
+
+- [National Council On Disability Domain Security](https://apis.io/security/national-council-on-disability/national-council-on-disability-domain-security/)
+- [National Council On Disability Vulnerability Disclosure](https://apis.io/security/national-council-on-disability/national-council-on-disability-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [National Council On Disability Plans Pricing](https://apis.io/plans/national-council-on-disability/national-council-on-disability-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [National Council On Disability Rate Limits](https://apis.io/rate-limits/national-council-on-disability/national-council-on-disability-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [National Council On Disability Finops](https://apis.io/finops/national-council-on-disability/national-council-on-disability-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.ncd.gov)
 - [Documentation](https://www.ncd.gov/reports/)
-- [DataAPI](https://www.ncd.gov/foia/)
-- [Contact](https://www.ncd.gov/contact/)
-- [PrivacyPolicy](https://www.ncd.gov/privacy-policy/)
-- [Newsroom](https://www.ncd.gov/newsroom/)
+- [Support](https://www.ncd.gov/contact/)
+- [Blog](https://www.ncd.gov/newsroom/)
+- [GitHub](https://github.com/NCDgov)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Policy Reports Archive | Comprehensive archive of NCD policy reports dating back to 1984 covering all areas of disability policy including civil rights, healthcare, employment, housing, and transportation. |
-| FOIA e-Library | Proactively published collection of NCD documents including bylaws, performance reports, budget justifications, financial audits, and strategic plans available for public download. |
-| Congressional Testimony Archive | Archive of NCD testimony before Congress on disability policy issues, providing insight into legislative advocacy and policy recommendations over time. |
-| Disability Policy Toolkits | Practical toolkits and fact sheets on disability rights and policy topics to help individuals, advocates, and policymakers understand and implement disability-inclusive practices. |
-| Newsroom and Stakeholder Letters | Press releases, newsroom updates, and letters to federal agency stakeholders documenting NCD's ongoing policy engagement and recommendations. |
+**Kin Score 19.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 63.4 |
+| Contract quality | 13.2 |
+| Contract governance | 23.5 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| Disability Policy Research | Access NCD's comprehensive reports to research disability policy history, current recommendations, and policy gaps across federal programs and agencies. |
-| FOIA Document Retrieval | Submit FOIA requests or access the FOIA e-Library to retrieve agency financial, performance, and operational documents. |
-| Legislative Advocacy | Use NCD testimony archives and policy letters as reference material for disability rights advocacy and legislative engagement. |
-| Federal Agency Compliance | Access NCD recommendations to understand federal agency obligations under disability rights laws including the ADA, Rehabilitation Act, and other statutes. |
-| Academic Research | Download NCD policy reports, progress reports, and data for academic research on disability policy, independent living, and civil rights. |
+**Agent readiness 3.8** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| ADA.gov | NCD's work intersects with the Americans with Disabilities Act guidance provided through ADA.gov maintained by the Department of Justice. |
-| Disability.gov | NCD recommendations inform resources available through federal disability information portals providing access to government benefits and services. |
-| data.gov | Federal government open data portal where related disability datasets from agencies like SSA, HHS, and DOL are cataloged and made available for download. |
-| USASpending.gov | NCD federal spending data is publicly accessible through USASpending.gov as part of federal transparency requirements. |
+**Regulatory alignment 17.2** — Health
 
-## Solutions
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/national-council-on-disability/](https://apis.io/providers/national-council-on-disability/).
 
-| Name | Description |
-|------|-------------|
-| Disability Policy Leadership | NCD provides independent policy analysis and recommendations to the three branches of government on all matters affecting people with disabilities. |
-| Federal Agency Accountability | NCD monitors federal agency compliance with disability rights laws and makes recommendations for program improvements and new legislation. |
-| Public Education | NCD publishes toolkits, fact sheets, and reports to educate the public and policymakers about disability rights and best practices for inclusion. |
+## How this profile is made
 
-## Artifacts
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-Machine-readable data schemas organized by format.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for National Council on Disability: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### JSON Schema
+## Open an issue
 
-- [NCD Policy Report](json-schema/ncd-policy-report-schema.json)
-- [NCD FOIA Record](json-schema/ncd-foia-record-schema.json)
-- [NCD Accountability Report](json-schema/ncd-accountability-report-schema.json)
-- [NCD Testimony](json-schema/ncd-testimony-schema.json)
-- [NCD Stakeholder Letter](json-schema/ncd-stakeholder-letter-schema.json)
-
-### JSON Structure
-
-- [NCD Policy Report](json-structure/ncd-policy-report-structure.json)
-- [NCD FOIA Record](json-structure/ncd-foia-record-structure.json)
-- [NCD Accountability Report](json-structure/ncd-accountability-report-structure.json)
-- [NCD Testimony](json-structure/ncd-testimony-structure.json)
-- [NCD Stakeholder Letter](json-structure/ncd-stakeholder-letter-structure.json)
-
-### JSON-LD
-
-- [NCD Context](json-ld/ncd-context.jsonld)
-
-### Examples
-
-- [NCD Policy Report Example](examples/ncd-policy-report-example.json)
-- [NCD FOIA Record Example](examples/ncd-foia-record-example.json)
-- [NCD Accountability Report Example](examples/ncd-accountability-report-example.json)
-- [NCD Testimony Example](examples/ncd-testimony-example.json)
-- [NCD Stakeholder Letter Example](examples/ncd-stakeholder-letter-example.json)
-
-## Vocabulary
-
-- [NCD Vocabulary](vocabulary/ncd-vocabulary.yaml) — Unified taxonomy mapping 5 data resources, policy areas, document types, and 5 consumer personas across NCD's disability policy domain
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/national-council-on-disability/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
